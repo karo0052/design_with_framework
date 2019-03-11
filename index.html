@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Design with framework</title>
     <link
@@ -12,5 +15,109 @@
       crossorigin="anonymous"
     />
   </head>
-  <body></body>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">by Lüthje</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="projects.html">Blog</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header>
+      <div class="overlay"></div>
+
+      <img src="images/1.JPG" class="img-fluid" alt="Responsive image" />
+      <!-- <img src="images/1.JPG" alt="billede" width="100%" /> -->
+    </header>
+
+    <section class="my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 mx-auto">
+            <h1>A travel blog</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti
+              quaerat quisquam repudiandae quam sit? Vel omnis, tempora rem
+              optio impedit corrupti sunt voluptatem maiores quidem expedita
+              quisquam commodi ducimus earum!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-5">
+      <div class="container-fluid bg-primary py-3">
+        <div class="container">
+          <div class="row py-3">
+            <div class="col-md-9">
+              <p class="text-white">Framework: Bootstrap</p>
+            </div>
+            <div class="col-md-3">
+              <div class="d-inline-block">
+                <div class="bg-circle-outline d-inline-block">
+                  <a href="https://www.facebook.com/" class="text-white"
+                    ><i class="fa fa-2x fa-fw fa-facebook"></i>
+                  </a>
+                </div>
+
+                <div class="bg-circle-outline d-inline-block">
+                  <a href="https://twitter.com/" class="text-white">
+                    <i class="fa fa-2x fa-fw fa-twitter"></i
+                  ></a>
+                </div>
+
+                <div class="bg-circle-outline d-inline-block">
+                  <a
+                    href="https://www.linkedin.com/company/"
+                    class="text-white"
+                  >
+                    <i class="fa fa-2x fa-fw fa-linkedin"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
